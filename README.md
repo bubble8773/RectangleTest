@@ -17,7 +17,7 @@ The first condition:
     return (abs(rect->x - x) <= (rect->width + width) / 2 ||
         abs(rect->y - y) <= (rect->height + height) / 2);
 
-Results in 404 intersections
+Results in 404 intersections.
 
 Whereas the second condition
 
@@ -25,4 +25,4 @@ Whereas the second condition
     return (abs(rect->x - x) <= (rect->width + width) / 2 &&
         abs(rect->y - y) <= (rect->height + height) / 2);
 
-Results in 5 interscetions.
+Results in 5 intersections.
